@@ -1,0 +1,1899 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Luique - Personal Portfolio HTML Template</title>
+
+	<!--------download-file-path-------->
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/pogo-slider.min.css">
+    <link rel="stylesheet" href="./css/flaticon.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     
+    <!--------font-family---------------->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost%3A0%2C100%3B0%2C200%3B0%2C300%3B0%2C400%3B0%2C500%3B0%2C600%3B0%2C700%3B0%2C800%3B0%2C900%3B1%2C100%3B1%2C200%3B1%2C300%3B1%2C400%3B1%2C500%3B1%2C600%3B1%2C700%3B1%2C800%3B1%2C900%7CCaveat%3A400%3B500%3B600%3B700&amp;display=swap" type="text/css" media="all">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto" type="text/css" media="all">
+
+    <!-----------html-link-------------->
+	<link rel="stylesheet" href="./css/lightgallery.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+	<div style="overflow: hidden;">
+		<!----------------------navbar------------------------>
+	    <header class="main-header">
+	    	<nav class="navbar navbar-light ">
+			    <div class="logo" style="width: 121px;">
+			    	<img src="./images/logo2.png" style="width:228px;" alt="./images/logo2.png" title="logo">
+			    </div>
+			    <!------switcher-btn----->
+			    <div class="switcher-btn">
+				  	<i class="fa fa-moon-o iconstyle1" aria-hidden="true"></i>
+					<i class="fa fa-sun-o iconstyle2" aria-hidden="true"></i>
+			    </div> 
+			    <!------menu-btn-------->
+			    <div class="menu-btn active" onclick="cartFunction()">
+			    	<span></span>
+					<span></span>
+			    </div>
+			</nav>
+			<!---menu-full-overlay--->
+			<div class="menu-full-overlay" id="JSheadercart" style="height: 455px;">
+				<div class="menu-full-container">
+				    <div class="container">
+						<div class="row">
+							<div class="col-xs-12 col-lg-12 col-md-12 col-sm-12">
+								<div class="left-menu-close-icon" onclick="cartRK()">
+									<i class="fa fa-times" aria-hidden="true"></i>
+								</div>
+								<div class="menu-ful">
+									<ul>
+										<li>
+											<a href="#home">
+												<span>HOME</span>
+											</a>
+										</li>
+										<li>
+											<a href="#services">
+												<span>SERVICES</span>
+											</a>
+										</li>
+										<li>
+											<a href="#Skills">
+												<span>SKILLS</span>
+											</a>
+										</li>
+										<li>
+											<a href="#works">
+												<span>WORKS</span>
+											</a>
+										</li>
+										<li>
+											<a href="#resume">
+												<span>RESUME</span>
+											</a>
+										</li>
+										<li>
+											<a href="#testmonials">
+												<span>TESTIMONIALS</span>
+											</a>
+										</li>
+										<li>
+											<a href="#pricing">
+												<span>PRICING</span>
+											</a>
+										</li>
+										<li>
+											<a href="#blog">
+												<span>BLOG</span>
+											</a>
+										</li>
+										<li>
+											<a href="#contact">
+												<span>CONTACT</span>
+											</a>
+										</li>
+										
+										<div class="accordion" id="accordionExample">
+										    <div id="headingOne">
+											    <ul>
+											    	<li>
+											    		<a href="#" class=" btn-link btn-block text-left" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+															<span>
+																PAGES
+																<i class="fa fa-chevron-down" aria-hidden="true"></i>
+															</span>
+														</a>
+											    	</li>
+											    </ul>
+										    </div>
+
+											<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+												<code>
+													<ul>
+														<li>
+															<a href="#">
+																Works (List)
+															</a>
+														</li>
+														<li>
+															<a href="#">
+																Works (Grid)
+															</a>
+														</li>
+														<li>
+															<a href="#">
+																Work Single Page
+															</a>
+														</li>
+														<li>
+															<a href="#">
+																Blog
+															</a>
+														</li>
+														<li>
+															<a href="#">
+																Single Post
+															</a>
+														</li>
+													</ul>
+												</code>
+	                                        </div>
+	                                    </div>   
+									</ul>
+								</div>
+								<!-----social----->
+								<div class="menu-social-links">
+									<a href="http://dribbble.com" target="_blank" title="dribbble">
+										<i class="fa fa-dribbble" aria-hidden="true"></i>
+									</a>
+									<a href="http://twitter.com" target="_blank" title="twitter">
+										<i class="fa fa-twitter" aria-hidden="true"></i>
+									</a>
+									<a href="http://behance.com" target="_blank" title="behance">
+										<i class="fa fa-behance" aria-hidden="true"></i>
+									</a>
+								</div>
+								<div class="v-line-block">
+									<span></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			    <div class="menu-overlay"></div>
+			</div>
+	    </header> 
+
+	    <!------------------hero------------------------------>
+	    <div class="hero lui-gradient-top" id="home">
+	    	<div class="container" style="display: flex; min-height: 100vh;">
+	    		<div class="row" style="width: 100%;">
+	    			<div class="col-sm-6 col-lg-6 col-md-6">
+	    				<div class="hero-padding">
+	    					<span>
+	    						HELLO, 
+	    						<b>MY NAME IS</b>
+	    					</span>
+	    					<p class="headding">
+	    						<b>
+	    						  ZOÉ	
+	    						</b>
+	    						MILLER
+	    					</p>
+	    					<div class="web">
+	    						I AM 
+	    						<strong>
+	    						   Web Developer	
+	    						</strong>
+	    					</div>
+	    					<div class="pargrapha">
+	    						<div>
+	    							<p>
+	    								From France, Paris. I have rich experience in web design, also I am good at wordpress. I love to talk with you about our unique.
+	    							</p>
+	    						</div>
+	    						<div class="social-links">
+	    							
+									<a href="http://twitter.com" target="_blank" title="twitter">
+										<i class="fa fa-twitter" aria-hidden="true"></i>
+									</a>
+									<a href="http://dribbble.com" target="_blank" title="dribbble">
+										<i class="fa fa-dribbble" aria-hidden="true"></i>
+									</a>
+									<a href="http://behance.com" target="_blank" title="behance">
+										<i class="fa fa-behance" aria-hidden="true"></i>
+									</a>
+	    						</div>
+	    					</div>
+
+	    					<div class="bts">
+	    						<a href="https://drive.google.com/" target="_blank" class="btn">
+	    							<span>Download CV</span>
+	    						</a>
+	    						<a href="#skills-section" class="btn-skills">
+	    							MY SKILLS
+	    						</a>
+	    					</div>
+	    				</div>
+	    			</div>
+	    			<div class="col-sm-6 col-lg-6 col-md-6 ">
+	    				<div class="circle"></div>
+	    				<div class="hero-img">
+	    					<img src="./images/Profile2.png">
+	    				</div>
+	    				<div class="dots-img">
+	    					<span class="dots-img2" style="background-image: url(./images/pat-1.png);"></span>
+	    					<span class="dots-img3" style="background-image: url(./images/pat-2.png);"></span>
+	    					<span class="dots-img4" style="background-image: url(./images/pat-2.png);"></span>
+	    					<div class="info-btn">
+	    						<ul>
+	    							<li>
+	    								<span class="num">
+	    									12
+	    									<strong>+</strong>
+	    								</span>
+	    								<span class="value">
+	                                        YEARS OF
+	                                        <strong>EXPERIENCE</strong>
+	    								</span>
+	    							</li>
+	    							<li>
+	    								<span class="num">330</span>
+	    								<span  class="value">
+											COMPLETED
+											<strong>PROJECTS</strong>
+	    								</span>
+	    							</li>
+	    						</ul>
+	    					</div>
+	    					<span class="dots-img-a"></span>
+	    				</div>
+	    			</div>
+	    		</div>
+	    	</div>
+	    	<div class="bg-title">
+	    		<span>Web Developer</span>
+	        </div>
+	    </div>
+
+	    <!-----------------WHAT--(slick-slider-1)------------->
+	    <section class="lui-gradient-bottom" id="services">
+	    	<div class="container">
+	    		<div class="title-box">
+	    			<h2 class="headding-box">
+	    				<span>WHAT I DO</span>
+	    			</h2>
+	    			<p class="paragraph-box">
+	    				<span>MY</span>
+	    				<b>Services</b>
+	    			</p>
+	    		</div>
+	    		<div class="professional-slick-slider">
+	    			<div class="your-class-2">
+	    				<div class="professional-paddingbox" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+						    <div class="professional-contentbox">
+						    	<div class="lui-subtitle">
+						    		<span>WEB DEVELOPMENT</span>
+						    	</div>
+						    	<div class="icon"></div>
+						    	<h5>
+						    		<span>Web Design & Logo</span>
+						    	</h5>
+						    	<div class="lui-text minhight">
+						    		<p>
+						    			Web designers craft the overall vision & plan for a website layout. Professional logo development: Business, Company, or Personal. 
+						    		</p>
+						    	</div>
+						    	<a href="#pricing-section" class="lnk"> See Pricing </a>
+						    	<div class="image"></div>
+						    </div>
+	    				</div>
+
+	    				<div class="professional-paddingbox" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+						    <div class="professional-contentbox">
+						    	<div class="lui-subtitle">
+						    		<span>apps development</span>
+						    	</div>
+						    	<div class="icon"></div>
+						    	<h5>
+						    		<span>iOS & Android</span>
+						    	</h5>
+						    	<div class="lui-text minhight">
+						    		<p>
+						    			Design Software applications to run on mobile devices. Modern and mobile-ready application that will help you reach all of your marketing.
+						    		</p>
+						    	</div>
+						    	<a href="#pricing-section" class="lnk"> See Pricing </a>
+						    	<div class="image"></div>
+						    </div>
+	    				</div>
+
+	    				<div class="professional-paddingbox" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+						    <div class="professional-contentbox">
+						    	<div class="lui-subtitle">
+						    		<span>game development</span>
+						    	</div>
+						    	<div class="icon"></div>
+						    	<h5>
+						    		<span>Unity & Unreal Engine</span>
+						    	</h5>
+						    	<div class="lui-text minhight">
+						    		<p>
+						    			Creating games & describes the design, development and release of a game. Developing unique mobile android and ios games.  
+						    		</p>
+						    	</div>
+						    	<a href="#pricing-section" class="lnk"> See Pricing </a>
+						    	<div class="image"></div>
+						    </div>
+	    				</div>
+
+	    				<div class="professional-paddingbox" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+						    <div class="professional-contentbox">
+						    	<div class="lui-subtitle">
+						    		<span> Advertising </span>
+						    	</div>
+						    	<div class="icon"></div>
+						    	<h5>
+						    		<span>Google Ads</span>
+						    	</h5>
+						    	<div class="lui-text minhight">
+						    		<p>
+						    			Advertising services include: Google search result pages, gmails, YouTube and other websites participated in Google Ads program.  
+						    		</p>
+						    	</div>
+						    	<a href="#pricing-section" class="lnk"> See Pricing </a>
+						    	<div class="image"></div>
+						    </div>
+	    				</div>
+	                    
+	                    <div class="professional-paddingbox" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+						    <div class="professional-contentbox">
+						    	<div class="lui-subtitle">
+						    		<span>Music Writing</span>
+						    	</div>
+						    	<div class="icon"></div>
+						    	<h5>
+						    		<span>Sound Track</span>
+						    	</h5>
+						    	<div class="lui-text minhight">
+						    		<p>
+						    			Music copying, writing, creating, transcription and composition services.  
+						    		</p>
+						    	</div>
+						    	<a href="#pricing-section" class="lnk"> See Pricing </a>
+						    	<div class="image"></div>
+						    </div>
+	    				</div>
+					</div>
+	    		</div>
+	    		<div class="lui-bgtitle">
+	    			<span> Services </span>
+	    		</div>
+	    	</div>
+	    </section>
+
+	    <!----------------progress bar------------------------>
+	    <section class="lui-gradient-center" id="Skills">
+	    	<div class="container">
+	    		<div class="row">
+	    			<div class="title-box">
+	    				<h2 class="headding-box">
+	    					<span>PROFESSIONAL SKILLS</span>
+	    				</h2>
+	    				<p class="paragraph-box">
+		    				<span>MY</span>
+		    				<b>Talent</b>
+		    			</p>
+	    			</div>
+	    			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+	    				<div class="progressbar-title">
+	    					<div class="progressbar-items">
+	    						<h6 class="name">
+	    							<span>PHP</span>
+	    							<span class="percentage">
+	    								85
+	    								<p>%</p>
+	    							</span>
+	    						</h6>
+	    						<div class="text">
+	    							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	    						</div>
+	    						<div class="progressbar-line">
+	    							<div class="line" style="width: 85%;">
+	    								<span></span>
+	    							</div>
+	    						</div>
+	    					</div>
+
+	    					<div class="progressbar-items">
+	    						<h6 class="name">
+	    							<span>Python</span>
+	    							<span class="percentage">
+	    								75
+	    								<p>%</p>
+	    							</span>
+	    						</h6>
+	    						<div class="text">
+	    							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	    						</div>
+	    						<div class="progressbar-line">
+	    							<div class="line" style="width: 85%;">
+	    								<span></span>
+	    							</div>
+	    						</div>
+	    					</div>
+	    				</div>
+	    			</div>
+
+	    			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+	    				<div class="progressbar-title" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+	    					<div class="progressbar-items">
+	    						<h6 class="name">
+	    							<span>JavaScript</span>
+	    							<span class="percentage">
+	    								75
+	    								<p>%</p>
+	    							</span>
+	    						</h6>
+	    						<div class="text">
+	    							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	    						</div>
+	    						<div class="progressbar-line">
+	    							<div class="line" style="width: 85%;">
+	    								<span></span>
+	    							</div>
+	    						</div>
+	    					</div>
+
+	    					<div class="progressbar-items">
+	    						<h6 class="name">
+	    							<span>React</span>
+	    							<span class="percentage">
+	    								70
+	    								<p>%</p>
+	    							</span>
+	    						</h6>
+	    						<div class="text">
+	    							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	    						</div>
+	    						<div class="progressbar-line">
+	    							<div class="line" style="width: 85%;">
+	    								<span></span>
+	    							</div>
+	    						</div>
+	    					</div>
+	    				</div>
+	    			</div>
+
+	    			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+	    				<div class="progressbar-title" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+	    					<div class="progressbar-items">
+	    						<h6 class="name">
+	    							<span>WordPress</span>
+	    							<span class="percentage">
+	    								90
+	    								<p>%</p>
+	    							</span>
+	    						</h6>
+	    						<div class="text">
+	    							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	    						</div>
+	    						<div class="progressbar-line">
+	    							<div class="line" style="width: 85%;">
+	    								<span></span>
+	    							</div>
+	    						</div>
+	    					</div>
+
+	    					<div class="progressbar-items">
+	    						<h6 class="name">
+	    							<span>Adobe XD</span>
+	    							<span class="percentage">
+	    								80
+	    								<p>%</p>
+	    							</span>
+	    						</h6>
+	    						<div class="text">
+	    							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	    						</div>
+	    						<div class="progressbar-line">
+	    							<div class="line" style="width: 85%;">
+	    								<span></span>
+	    							</div>
+	    						</div>
+	    					</div>
+	    				</div>
+	    			</div>
+	    		</div>
+	    		<div class="lui-bgtitle">
+	    			<span>  Skills  </span>
+	    		</div>
+	    	</div>
+	    </section>
+
+	    <!----------------card-------------------------------->
+	    <section class="lui-gradient-top" id="works">
+	    	<div class="container">
+				<div class="title-box">
+					<h2 class="headding-box">
+						<span>PORTFOLIO</span>
+					</h2>
+					<p class="paragraph-box">
+	    				<span>MY</span>
+	    				<b>Talent</b>
+	    			</p>
+				</div>
+
+				<div class="row">	
+				    <div class="works-box">
+				        <div class="nav worklink" id="myTab" role="tablist" style="display: block;">
+							<a href="/" class="anchor active" id="home-tab" data-toggle="tab" data-target="#home" role="tab" aria-controls="home" aria-selected="true">
+								All
+				            </a>
+							<a href="/" class="anchor" id="profile-tab" data-toggle="tab" data-target="#profile" role="tab" aria-controls="profile" aria-selected="false">
+								UI UX DESIGN
+				            </a>
+							<a href="/" class="anchor"  id="contact-tab" data-toggle="tab" data-target="#contact" role="tab" aria-controls="contact" aria-selected="false">
+								PHOTOGRAPHY
+							</a>
+							<a href="/" class="anchor" id="Shoes-tab" data-toggle="tab" data-target="#Shoes" role="tab" aria-controls="Shoes" aria-selected="false">
+								DEVELOPMENT
+							</a>
+							<a href="/" class="anchor" id="Watches-tab" data-toggle="tab" data-target="#Watches" role="tab" aria-controls="Watches" aria-selected="false">
+								BRANDING
+							</a>
+						</div>
+
+						<div class="work-item">
+						    <div class="tab-content" id="myTabContent">
+				                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+									<div class="row">
+									    <div class="works-col col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					    					<div class="workitem-2">
+					    						<div class="image">
+					    							<div class="img">
+					    								<a href="work-single.html">
+					    									<img decoding="async" src="./images/work4.jpeg" alt="Zorro">
+					    									<span class="overlay"></span>
+					    								</a>
+					    							</div>
+					    						</div>
+					    						<div class="titlebox-2">
+					    							<span class="category">BRANDING, PHOTOGRAPHY</span>
+					    							<h5 class="name">
+					    								<a href="work-single.html">Zorro</a>
+					    							</h5>
+					    							<div class="text-2">
+					    								<p>
+					    									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+					    								</p>
+					    							</div>
+					    							<a href="#pricing-section" class="lnk"> See Pricing </a>
+					    						</div>
+					    						<div class="bg-img" style="background-image: url(./images/pat-2.png);"></div>
+					    					</div>
+					    				</div>
+
+					    				<div class="works-col col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					    					<div class="workitem-2">
+					    						<div class="image">
+					    							<div class="img">
+					    								<a href="work-single.html">
+					    									<img decoding="async" src="./images/work2.jpeg" alt="Zorro">
+					    									<span class="overlay"></span>
+					    								</a>
+					    							</div>
+					    						</div>
+					    						<div class="titlebox-2">
+					    							<span class="category">BRANDING, PHOTOGRAPHY</span>
+					    							<h5 class="name">
+					    								<a href="work-single.html">Zorro</a>
+					    							</h5>
+					    							<div class="text-2">
+					    								<p>
+					    									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+					    								</p>
+					    							</div>
+					    							<a href="#pricing-section" class="lnk"> See Pricing </a>
+					    						</div>
+					    						<div class="bg-img" style="background-image: url(./images/pat-2.png);"></div>
+					    					</div>
+					    				</div>
+
+					    				<div class="works-col col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					    					<div class="workitem-2">
+					    						<div class="image">
+					    							<div class="img">
+					    								<a href="work-single.html">
+					    									<img decoding="async" src="./images/work7.jpg" alt="Zorro">
+					    									<span class="overlay"></span>
+					    								</a>
+					    							</div>
+					    						</div>
+					    						<div class="titlebox-2">
+					    							<span class="category">BRANDING, PHOTOGRAPHY</span>
+					    							<h5 class="name">
+					    								<a href="work-single.html">Zorro</a>
+					    							</h5>
+					    							<div class="text-2">
+					    								<p>
+					    									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+					    								</p>
+					    							</div>
+					    							<a href="#pricing-section" class="lnk"> See Pricing </a>
+					    						</div>
+					    						<div class="bg-img" style="background-image: url(./images/pat-2.png);"></div>
+					    					</div>
+					    				</div>
+
+					    				<div class="works-col col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					    					<div class="workitem-2">
+					    						<div class="image">
+					    							<div class="img">
+					    								<a href="work-single.html">
+					    									<img decoding="async" src="./images/work1.jpeg" alt="Zorro">
+					    									<span class="overlay"></span>
+					    								</a>
+					    							</div>
+					    						</div>
+					    						<div class="titlebox-2">
+					    							<span class="category">BRANDING, PHOTOGRAPHY</span>
+					    							<h5 class="name">
+					    								<a href="work-single.html">Zorro</a>
+					    							</h5>
+					    							<div class="text-2">
+					    								<p>
+					    									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+					    								</p>
+					    							</div>
+					    							<a href="#pricing-section" class="lnk"> See Pricing </a>
+					    						</div>
+					    						<div class="bg-img" style="background-image: url(./images/pat-2.png);"></div>
+					    					</div>
+					    				</div>
+
+					    				<div class="works-col col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					    					<div class="workitem-2">
+					    						<div class="image">
+					    							<div class="img">
+					    								<a href="work-single.html">
+					    									<img decoding="async" src="./images/single8.jpg" alt="Zorro">
+					    									<span class="overlay"></span>
+					    								</a>
+					    							</div>
+					    						</div>
+					    						<div class="titlebox-2">
+					    							<span class="category">BRANDING, PHOTOGRAPHY</span>
+					    							<h5 class="name">
+					    								<a href="work-single.html">Zorro</a>
+					    							</h5>
+					    							<div class="text-2">
+					    								<p>
+					    									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+					    								</p>
+					    							</div>
+					    							<a href="#pricing-section" class="lnk"> See Pricing </a>
+					    						</div>
+					    						<div class="bg-img" style="background-image: url(./images/pat-2.png);"></div>
+					    					</div>
+					    				</div>
+
+					    				<div class="works-col col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					    					<div class="workitem-2">
+					    						<div class="image">
+					    							<div class="img">
+					    								<a href="work-single.html">
+					    									<img decoding="async" src="./images/single6.jpg" alt="Zorro">
+					    									<span class="overlay"></span>
+					    								</a>
+					    							</div>
+					    						</div>
+					    						<div class="titlebox-2">
+					    							<span class="category">BRANDING, PHOTOGRAPHY</span>
+					    							<h5 class="name">
+					    								<a href="work-single.html">Zorro</a>
+					    							</h5>
+					    							<div class="text-2">
+					    								<p>
+					    									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+					    								</p>
+					    							</div>
+					    							<a href="#pricing-section" class="lnk"> See Pricing </a>
+					    						</div>
+					    						<div class="bg-img" style="background-image: url(./images/pat-2.png);"></div>
+					    					</div>
+					    				</div>
+									</div>
+							    </div>
+
+							    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+									<div class="row">
+										<div class="works-col col-xs-12 col-sm-12 col-md-4 col-lg-4" >
+					    					<div class="workitem-2">
+					    						<div class="image">
+					    							<div class="img">
+					    								<a href="work-single.html">
+					    									<img decoding="async" src="./images/work2.jpeg" alt="Zorro">
+					    									<span class="overlay"></span>
+					    								</a>
+					    							</div>
+					    						</div>
+					    						<div class="titlebox-2">
+					    							<span class="category">BRANDING, PHOTOGRAPHY</span>
+					    							<h5 class="name">
+					    								<a href="work-single.html">Zorro</a>
+					    							</h5>
+					    							<div class="text-2">
+					    								<p>
+					    									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+					    								</p>
+					    							</div>
+					    							<a href="#pricing-section" class="lnk"> See Pricing </a>
+					    						</div>
+					    						<div class="bg-img" style="background-image: url(./images/pat-2.png);"></div>
+					    					</div>
+					    				</div>
+
+					    				<div class="works-col col-xs-12 col-sm-12 col-md-4 col-lg-4" >
+					    					<div class="workitem-2">
+					    						<div class="image">
+					    							<div class="img">
+					    								<a href="work-single.html">
+					    									<img decoding="async" src="./images/work7.jpg" alt="Zorro">
+					    									<span class="overlay"></span>
+					    								</a>
+					    							</div>
+					    						</div>
+					    						<div class="titlebox-2">
+					    							<span class="category">BRANDING, PHOTOGRAPHY</span>
+					    							<h5 class="name">
+					    								<a href="work-single.html">Zorro</a>
+					    							</h5>
+					    							<div class="text-2">
+					    								<p>
+					    									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+					    								</p>
+					    							</div>
+					    							<a href="#pricing-section" class="lnk"> See Pricing </a>
+					    						</div>
+					    						<div class="bg-img" style="background-image: url(./images/pat-2.png);"></div>
+					    					</div>
+					    				</div>
+
+
+										<div class="works-col col-xs-12 col-sm-12 col-md-4 col-lg-4" >
+					    					<div class="workitem-2">
+					    						<div class="image">
+					    							<div class="img">
+					    								<a href="work-single.html">
+					    									<img decoding="async" src="./images/single8.jpg" alt="Zorro">
+					    									<span class="overlay"></span>
+					    								</a>
+					    							</div>
+					    						</div>
+					    						<div class="titlebox-2">
+					    							<span class="category">BRANDING, PHOTOGRAPHY</span>
+					    							<h5 class="name">
+					    								<a href="work-single.html">Zorro</a>
+					    							</h5>
+					    							<div class="text-2">
+					    								<p>
+					    									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+					    								</p>
+					    							</div>
+					    							<a href="#pricing-section" class="lnk"> See Pricing </a>
+					    						</div>
+					    						<div class="bg-img" style="background-image: url(./images/pat-2.png);"></div>
+					    					</div>
+					    				</div>
+									</div>
+							    </div>
+
+							    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+									<div class="row">
+										<div class="works-col col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					    					<div class="workitem-2">
+					    						<div class="image">
+					    							<div class="img">
+					    								<a href="work-single.html">
+					    									<img decoding="async" src="./images/work4.jpeg" alt="Zorro">
+					    									<span class="overlay"></span>
+					    								</a>
+					    							</div>
+					    						</div>
+					    						<div class="titlebox-2">
+					    							<span class="category">BRANDING, PHOTOGRAPHY</span>
+					    							<h5 class="name">
+					    								<a href="work-single.html">Zorro</a>
+					    							</h5>
+					    							<div class="text-2">
+					    								<p>
+					    									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+					    								</p>
+					    							</div>
+					    							<a href="#pricing-section" class="lnk"> See Pricing </a>
+					    						</div>
+					    						<div class="bg-img" style="background-image: url(./images/pat-2.png);"></div>
+					    					</div>
+					    				</div>
+									    <div class="works-col col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					    					<div class="workitem-2">
+					    						<div class="image">
+					    							<div class="img">
+					    								<a href="work-single.html">
+					    									<img decoding="async" src="./images/work1.jpeg" alt="Zorro">
+					    									<span class="overlay"></span>
+					    								</a>
+					    							</div>
+					    						</div>
+					    						<div class="titlebox-2">
+					    							<span class="category">BRANDING, PHOTOGRAPHY</span>
+					    							<h5 class="name">
+					    								<a href="work-single.html">Zorro</a>
+					    							</h5>
+					    							<div class="text-2">
+					    								<p>
+					    									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+					    								</p>
+					    							</div>
+					    							<a href="#pricing-section" class="lnk"> See Pricing </a>
+					    						</div>
+					    						<div class="bg-img" style="background-image: url(./images/pat-2.png);"></div>
+					    					</div>
+					    				</div>
+
+									    <div class="works-col col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					    					<div class="workitem-2">
+					    						<div class="image">
+					    							<div class="img">
+					    								<a href="work-single.html">
+					    									<img decoding="async" src="./images/single6.jpg" alt="Zorro">
+					    									<span class="overlay"></span>
+					    								</a>
+					    							</div>
+					    						</div>
+					    						<div class="titlebox-2">
+					    							<span class="category">BRANDING, PHOTOGRAPHY</span>
+					    							<h5 class="name">
+					    								<a href="work-single.html">Zorro</a>
+					    							</h5>
+					    							<div class="text-2">
+					    								<p>
+					    									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+					    								</p>
+					    							</div>
+					    							<a href="#pricing-section" class="lnk"> See Pricing </a>
+					    						</div>
+					    						<div class="bg-img" style="background-image: url(./images/pat-2.png);"></div>
+					    					</div>
+					    				</div>
+									</div>	
+								</div>
+
+								<div class="tab-pane fade" id="Shoes" role="tabpanel" aria-labelledby="Shoes-tab">
+									<div class="row">
+										<div class="works-col col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					    					<div class="workitem-2">
+					    						<div class="image">
+					    							<div class="img">
+					    								<a href="work-single.html">
+					    									<img decoding="async" src="./images/work7.jpg" alt="Zorro">
+					    									<span class="overlay"></span>
+					    								</a>
+					    							</div>
+					    						</div>
+					    						<div class="titlebox-2">
+					    							<span class="category">BRANDING, PHOTOGRAPHY</span>
+					    							<h5 class="name">
+					    								<a href="work-single.html">Zorro</a>
+					    							</h5>
+					    							<div class="text-2">
+					    								<p>
+					    									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+					    								</p>
+					    							</div>
+					    							<a href="#pricing-section" class="lnk"> See Pricing </a>
+					    						</div>
+					    						<div class="bg-img" style="background-image: url(./images/pat-2.png);"></div>
+					    					</div>
+					    				</div>
+					    				<div class="works-col col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					    					<div class="workitem-2">
+					    						<div class="image">
+					    							<div class="img">
+					    								<a href="work-single.html">
+					    									<img decoding="async" src="./images/single8.jpg" alt="Zorro">
+					    									<span class="overlay"></span>
+					    								</a>
+					    							</div>
+					    						</div>
+					    						<div class="titlebox-2">
+					    							<span class="category">BRANDING, PHOTOGRAPHY</span>
+					    							<h5 class="name">
+					    								<a href="work-single.html">Zorro</a>
+					    							</h5>
+					    							<div class="text-2">
+					    								<p>
+					    									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+					    								</p>
+					    							</div>
+					    							<a href="#pricing-section" class="lnk"> See Pricing </a>
+					    						</div>
+					    						<div class="bg-img" style="background-image: url(./images/pat-2.png);"></div>
+					    					</div>
+					    				</div>
+
+					    				<div class="works-col col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					    					<div class="workitem-2">
+					    						<div class="image">
+					    							<div class="img">
+					    								<a href="work-single.html">
+					    									<img decoding="async" src="./images/single6.jpg" alt="Zorro">
+					    									<span class="overlay"></span>
+					    								</a>
+					    							</div>
+					    						</div>
+					    						<div class="titlebox-2">
+					    							<span class="category">BRANDING, PHOTOGRAPHY</span>
+					    							<h5 class="name">
+					    								<a href="work-single.html">Zorro</a>
+					    							</h5>
+					    							<div class="text-2">
+					    								<p>
+					    									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+					    								</p>
+					    							</div>
+					    							<a href="#pricing-section" class="lnk"> See Pricing </a>
+					    						</div>
+					    						<div class="bg-img" style="background-image: url(./images/pat-2.png);"></div>
+					    					</div>
+					    				</div>
+									</div>
+								</div>
+
+								<div class="tab-pane fade" id="Watches" role="tabpanel" aria-labelledby="Watches-tab">
+										<div class="row">
+											<div class="works-col col-xs-12 col-sm-12 col-md-4 col-lg-4">
+						    					<div class="workitem-2">
+						    						<div class="image">
+						    							<div class="img">
+						    								<a href="work-single.html">
+						    									<img decoding="async" src="./images/work4.jpeg" alt="Zorro">
+						    									<span class="overlay"></span>
+						    								</a>
+						    							</div>
+						    						</div>
+						    						<div class="titlebox-2">
+						    							<span class="category">BRANDING, PHOTOGRAPHY</span>
+						    							<h5 class="name">
+						    								<a href="work-single.html">Zorro</a>
+						    							</h5>
+						    							<div class="text-2">
+						    								<p>
+						    									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+						    								</p>
+						    							</div>
+						    							<a href="#pricing-section" class="lnk"> See Pricing </a>
+						    						</div>
+						    						<div class="bg-img" style="background-image: url(./images/pat-2.png);"></div>
+						    					</div>
+						    				</div>
+
+						    				<div class="works-col col-xs-12 col-sm-12 col-md-4 col-lg-4">
+						    					<div class="workitem-2">
+						    						<div class="image">
+						    							<div class="img">
+						    								<a href="work-single.html">
+						    									<img decoding="async" src="./images/work2.jpeg" alt="Zorro">
+						    									<span class="overlay"></span>
+						    								</a>
+						    							</div>
+						    						</div>
+						    						<div class="titlebox-2">
+						    							<span class="category">BRANDING, PHOTOGRAPHY</span>
+						    							<h5 class="name">
+						    								<a href="work-single.html">Zorro</a>
+						    							</h5>
+						    							<div class="text-2">
+						    								<p>
+						    									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+						    								</p>
+						    							</div>
+						    							<a href="#pricing-section" class="lnk"> See Pricing </a>
+						    						</div>
+						    						<div class="bg-img" style="background-image: url(./images/pat-2.png);"></div>
+						    					</div>
+						    				</div>
+						    				<div class="works-col col-xs-12 col-sm-12 col-md-4 col-lg-4">
+						    					<div class="workitem-2">
+						    						<div class="image">
+						    							<div class="img">
+						    								<a href="work-single.html">
+						    									<img decoding="async" src="./images/work1.jpeg" alt="Zorro">
+						    									<span class="overlay"></span>
+						    								</a>
+						    							</div>
+						    						</div>
+						    						<div class="titlebox-2">
+						    							<span class="category">BRANDING, PHOTOGRAPHY</span>
+						    							<h5 class="name">
+						    								<a href="work-single.html">Zorro</a>
+						    							</h5>
+						    							<div class="text-2">
+						    								<p>
+						    									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+						    								</p>
+						    							</div>
+						    							<a href="#pricing-section" class="lnk"> See Pricing </a>
+						    						</div>
+						    						<div class="bg-img" style="background-image: url(./images/pat-2.png);"></div>
+						    					</div>
+						    				</div>
+									    </div>
+								</div>
+						    </div>
+							<div class="load-btn">
+					        	<a href="works.html">
+					        		<span>View More</span>
+					        	</a>
+					        </div>
+				        </div> 
+					</div>	
+				</div>
+
+	    		<div class="lui-bgtitle">
+	    			<span>Portfolio</span>
+	    		</div>
+	    	</div>
+	    </section>
+
+	    <!----------------history-(collaps)------------------->
+	    <section class="lui-gradient-bottom" id="resume">
+	    	<div class="container">
+	    		<div class="row">
+	    			<div class="title-box">
+	    				<h2 class="headding-box">
+	    					<span>RESUME</span>
+	    				</h2>
+	    				<p class="paragraph-box">
+		    				<span>MY</span>
+		    				<b>Story</b>
+		    			</p>
+	    			</div>
+	    		</div>
+
+	    		<div class="row">
+	    			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	    				<h5 class="history-title">
+	    					<span>
+	    						Education
+	    					</span>
+	    				</h5>
+	    				<div class="accordion" id="accordionExample">
+							<div class="card history-item">
+							    <div class="card-header" id="headingone">
+								    <h6 class="cd-name active" data-toggle="collapse" data-target="#collapseone" aria-expanded="false" aria-controls="collapseone">
+								    	<span class="btn collapsed"  >CoderHouse Courses</span>
+								    </h6>
+							    </div>
+
+							    <div id="collapseone" class="collapse show" aria-labelledby="headingone" data-parent="#accordionExample">
+								    <div class="card-body">
+								        <div class="subname">
+								        	<span style="width: 70%;">
+								        		Backend Programming
+								        	</span>
+								        	<span class="date lui-subtitle">
+								        		2014 - 2016
+								        	</span>
+								        </div>
+								        
+								        <div class="cd-text">
+								        	<div>
+								        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								        	</div>
+								        </div>
+								    </div>
+							    </div>
+							</div>
+
+							<div class="card history-item">
+							    <div class="card-header" id="headingTwo">
+								    <h6 class="cd-name active" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								    	<span class="btn collapsed"  >Lviv National Academy of Arts</span>
+								    </h6>
+							    </div>
+
+							    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+								    <div class="card-body">
+								        <div class="subname">
+								        	<span style="width: 70%;">
+								        		Faculty of Design
+								        	</span>
+								        	<span class="date lui-subtitle">
+								        		2012 - 2014
+								        	</span>
+								        </div>
+								        
+								        <div class="cd-text">
+								        	<div>
+								        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								        	</div>
+								        </div>
+								    </div>
+							    </div>
+							</div>
+
+							<div class="card history-item">
+							    <div class="card-header" id="headingThree">
+								    <h6 class="cd-name active" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								    	<span class="btn collapsed">IT Future</span>
+								    </h6>
+							    </div>
+
+							    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+								    <div class="card-body">
+								        <div class="subname">
+								        	<span style="width: 70%;">
+								        		High School
+								        	</span>
+								        	<span class="date lui-subtitle">
+								        		2010 - 2012
+								        	</span>
+								        </div>
+								        <div class="cd-text">
+								        	<div>
+								        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								        	</div>
+								        </div>
+								    </div>
+							    </div>
+							</div>
+					    </div>
+	    			</div>
+
+	    			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	    				<h5 class="history-title">
+	    					<span>
+	    						Experience
+	    					</span>
+	    				</h5>
+	    				<div class="accordion" id="accordionExample">
+							<div class="card history-item">
+							    <div class="card-header" id="headingfour">
+								    <h6 class="cd-name active" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+								    	<span class="btn collapsed">
+									    	UI Head & Manager
+									    </span>
+								    </h6>
+							    </div>
+
+							    <div id="collapsefour" class="collapse show" aria-labelledby="headingfour" data-parent="#accordionExample">
+								    <div class="card-body">
+								        <div class="subname">
+								        	<span style="width:70%;">
+								        		Soft Tech Inc.
+								        	</span>
+								        	<span class="date lui-subtitle">
+								        		2020 - 
+								        		<b>PRESENT</b>
+								        	</span>
+								        </div>
+								        
+								        <div class="cd-text">
+								        	<div>
+								        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								        	</div>
+								        </div>
+								    </div>
+							    </div>
+							</div>
+
+							<div class="card history-item">
+							    <div class="card-header" id="headingfive">
+								    <h6 class="cd-name active" data-toggle="collapse" data-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+								    	<span class="btn collapsed">
+									    	UI / UX Specialist
+									    </span>
+								    </h6>
+							    </div>
+
+							    <div id="collapsefive" class="collapse" aria-labelledby="headingfive" data-parent="#accordionExample">
+								    <div class="card-body">
+								        <div class="subname">
+								        	<span style="width:70%;">
+								        		Kana Design Studio
+								        	</span>
+								        	<span class="date lui-subtitle">
+								        		2018 - 2012
+								        	</span>
+								        </div>
+								        
+								        <div class="cd-text">
+								        	<div>
+								        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								        	</div>
+								        </div>
+								    </div>
+							    </div>
+							</div>
+
+							<div class="card history-item">
+							    <div class="card-header" id="headingsix">
+								    <h6 class="cd-name active" data-toggle="collapse" data-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+								    	<span class="btn collapsed">
+								    		Plugins Developer
+								    	</span>
+								    </h6>
+							    </div>
+
+							    <div id="collapsesix" class="collapse" aria-labelledby="headingsix" data-parent="#accordionExample">
+								    <div class="card-body">
+								        <div class="subname">
+								        	<span style="width:70%;">
+								        		Fiverr.com
+								        	</span>
+								        	<span class="date lui-subtitle">
+								        		2016 - 2018
+								        	</span>
+								        </div>
+								        
+								        <div class="cd-text">
+								        	<div>
+								        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								        	</div>
+								        </div>
+								    </div>
+							    </div>
+							</div>
+					    </div>
+	    			</div>
+	    		</div>
+
+	    		<div class="lui-bgtitle">
+	    			<span>History</span>
+	    		</div>
+	    	</div>
+	    </section>
+	    
+	    <!----------------Reviews--(slick-slider-2)----------->
+	    <section class="lui-gradient-center" id="testmonials">
+	    	<div class="container">
+	    		<div class="title-box">
+	    			<h2 class="headding-box">
+	    				<span>TESTIMONIALS</span>
+	    			</h2>
+	    			<p class="paragraph-box">
+	    				<span>WHAT</span>
+	    				<b>Customers Say</b>
+	    			</p>
+	    		</div>
+	    		<div class="professional-slick-slider">
+	    			<div class="your-class-2">
+	    				<div class="professional-paddingbox" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+						    <div class="professional-contentbox">
+						    	<div class="professionalimage-box">
+						    		<img src="./images/testi4-2.jpg">
+						    		<div class="img-icon">
+						    			<i class="fa fa-quote-right" aria-hidden="true"></i>
+						    			
+						    		</div>
+						    	</div>
+						    	<div class="lui-text" style="min-height: 110px;">
+						    		<p>
+						    			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						    		</p>
+						    	</div>
+						    	<div class="professional-info">
+						    		<h6 class="name">
+						    			<span>Barbara Wilson</span>
+						    		</h6>
+						    		<!--<a href="#pricing-section" class="lnk"> See Pricing </a>-->
+						    		<div class="author">
+						    			<span>CEO Company</span>
+						    		</div>
+						    	    <div class="image"></div>
+						    	</div>
+						    </div>
+	    				</div>
+
+	    				<div class="professional-paddingbox" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+						    <div class="professional-contentbox">
+						    	<div class="professionalimage-box">
+						    		<img src="./images/testi4-1.jpg">
+						    		<div class="img-icon">
+						    			<i class="fa fa-quote-right" aria-hidden="true"></i>
+						    		</div>
+						    	</div>
+						    	<div class="lui-text" style="min-height: 110px;">
+						    		<p>
+						    			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						    		</p>
+						    	</div>
+						    	<div class="professional-info">
+						    		<h6 class="name">
+						    			<span>Charlie Smith</span>
+						    		</h6>
+						    		<!--<a href="#pricing-section" class="lnk"> See Pricing </a>-->
+						    		<div class="author">
+						    			<span>Designer</span>
+						    		</div>
+						    	    <div class="image"></div>
+						    	</div>
+						    </div>
+	    				</div>
+
+	    				<div class="professional-paddingbox" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+						    <div class="professional-contentbox">
+						    	<div class="professionalimage-box">
+						    		<img src="./images/testi4-4.jpg">
+						    		<div class="img-icon">
+						    			<i class="fa fa-quote-right" aria-hidden="true"></i>
+						    			
+						    		</div>
+						    	</div>
+						    	<div class="lui-text" style="min-height: 110px;">
+						    		<p>
+						    			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						    		</p>
+						    	</div>
+						    	<div class="professional-info">
+						    		<h6 class="name">
+						    			<span>Roy Wang</span>
+						    		</h6>
+						    		<!--<a href="#pricing-section" class="lnk"> See Pricing </a>-->
+						    		<div class="author">
+						    			<span>Manager GYM</span>
+						    		</div>
+						    	    <div class="image"></div>
+						    	</div>
+						    </div>
+	    				</div>
+
+	    				<div class="professional-paddingbox" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+						    <div class="professional-contentbox">
+						    	<div class="professionalimage-box">
+						    		<img src="./images/testi4-3.jpg">
+						    		<div class="img-icon">
+						    			<i class="fa fa-quote-right" aria-hidden="true"></i>
+						    		</div>
+						    	</div>
+						    	<div class="lui-text" style="min-height: 110px;">
+						    		<p>
+						    			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						    		</p>
+						    	</div>
+						    	<div class="professional-info">
+						    		<h6 class="name">
+						    			<span>Jennifer Smith</span>
+						    		</h6>
+						    		<!--<a href="#pricing-section" class="lnk"> See Pricing </a>-->
+						    		<div class="author">
+						    			<span>CEO & Founder</span>
+						    		</div>
+						    	    <div class="image"></div>
+						    	</div>
+						    </div>
+	    				</div>
+	                    
+	                    <div class="professional-paddingbox" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+						    <div class="professional-contentbox">
+						    	<div class="professionalimage-box">
+						    		<img src="./images/testi4-5.jpg">
+						    		<div class="img-icon">
+						    			<i class="fa fa-quote-right" aria-hidden="true"></i>
+						    		</div>
+						    	</div>
+						    	<div class="lui-text" style="min-height: 110px;">
+						    		<p>
+						    			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						    		</p>
+						    	</div>
+						    	<div class="professional-info">
+						    		<h6 class="name">
+						    			<span>Paul Freeman</span>
+						    		</h6>
+						    		<!--<a href="#pricing-section" class="lnk"> See Pricing </a>-->
+						    		<div class="author">
+						    			<span>Photographer</span>
+						    		</div>
+						    	    <div class="image"></div>
+						    	</div>
+						    </div>
+	    				</div>
+					</div>
+	    		</div>
+	    		<div class="lui-bgtitle">
+	    			<span>  Reviews  </span>
+	    		</div>
+	    	</div>
+	    </section>
+	    
+	    <!----------------PRICING----------------------------->
+	    <section class="lui-gradient-center" id="pricing">
+	    	<div class="container">
+	    		<div class="title-box">
+	    			<h2 class="headding-box">
+	    				<span>PRICING</span>
+	    			</h2>
+	    			<p class="paragraph-box">
+	    				<span>MY</span>
+	    				<b>Price Board</b>
+	    			</p>
+	    		</div>
+
+	    		<div class="pricing-items">
+	    			<div class="row">
+	    				<div class="pricing-col col-xs-12 col-sm-6 col-md-6 col-lg-4">
+	    					<div class="pricing-item">
+	    						<div class="lui-subtitle">
+	    							<span> Hourley Basis </span>
+	    						</div>
+	    						<div class="icon"></div>
+	    						<div class="price">
+	    							<span>
+	    								39
+	    								<b>$</b>
+	    							</span>
+	    							<em>Hour</em>
+	    						</div>
+	    						<div class="lui-text">
+	    							<div>
+	    								<p>
+	    									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+	    								</p>
+	    							</div>
+	    						</div>
+	    						<div class="list">
+	    							<div>
+	    								<ul>
+	    									<li>
+	    										<i class="fa fa-check" aria-hidden="true"></i>
+	    										Brand Design
+	    									</li>
+	    									<li>
+	    										<i class="fa fa-check" aria-hidden="true"></i>
+	    										Web Development
+	    									</li>
+	    									<li>
+	    										<em>
+	    											Advertising
+	    										</em>
+	    									</li>
+	    									<li>
+	    										<em>
+	    											Photography
+	    										</em>
+	    									</li>
+	    								</ul>
+	    							</div>
+	    						</div>
+	    						<a href="#contact-section" class="btn btn-solid">
+	    							<span>Start Project</span>
+
+	    						</a>
+	    						<div class="bg-img" style="background-image: url(./images/pat-2.png);"></div>
+	    					</div>
+	    				</div>
+	    				<div class="pricing-col center col-xs-12 col-sm-6 col-md-6 col-lg-4">
+	    				    <div class="label">
+	    				    	<span> Popular </span>
+	    				    </div>  
+	    					<div class="pricing-item">
+	    						<div class="lui-subtitle">
+	    							<span> FREELANCING </span>
+	    						</div>
+	    						<div class="icon"></div>
+	    						<div class="price">
+	    							<span>
+	    								259 
+	    								<b>$</b>
+	    							</span>
+	    							<em>Week</em>
+	    						</div>
+	    						<div class="lui-text">
+	    							<div>
+	    								<p>
+	    									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+	    								</p>
+	    							</div>
+	    						</div>
+	    						<div class="list">
+	    							<div>
+	    								<ul>
+	    									<li>
+	    										<i class="fa fa-check" aria-hidden="true"></i>
+	    										Brand Design
+	    									</li>
+	    									<li>
+	    										<i class="fa fa-check" aria-hidden="true"></i>
+	    										Web Development
+	    									</li>
+	    									<li>
+	    										<i class="fa fa-check" aria-hidden="true"></i>
+	    										Advertising
+	    									</li>
+	    									<li>
+	    										<em>
+	    											Photography
+	    										</em>
+	    									</li>
+	    								</ul>
+	    							</div>
+	    						</div>
+	    						<a href="#contact-section" class="btn btn-solid">
+	    							<span>Start Project</span>
+	    							
+	    						</a>
+	    						<div class="bg-img" style="background-image: url(./images/pat-2.png);"></div>
+	    					</div>
+	    				</div>
+	    				<div class="pricing-col col-xs-12 col-sm-6 col-md-6 col-lg-4">
+	    					<div class="pricing-item">
+	    						<div class="lui-subtitle">
+	    							<span> FULL TIME</span>
+	    						</div>
+	    						<div class="icon"></div>
+	    						<div class="price">
+	    							<span>
+	    								1.249 
+	    								<b>$</b>
+	    							</span>
+	    							<em>Month</em>
+	    						</div>
+	    						<div class="lui-text">
+	    							<div>
+	    								<p>
+	    									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+	    								</p>
+	    							</div>
+	    						</div>
+	    						<div class="list">
+	    							<div>
+	    								<ul>
+	    									<li>
+	    										<i class="fa fa-check" aria-hidden="true"></i>
+	    										Brand Design
+	    									</li>
+	    									<li>
+	    										<i class="fa fa-check" aria-hidden="true"></i>
+	    										Web Development
+	    									</li>
+	    									<li>
+	    										<i class="fa fa-check" aria-hidden="true"></i>
+	    										Advertising
+	    									</li>
+	    									<li>
+	    										<i class="fa fa-check" aria-hidden="true"></i>
+	    			                            Photography	
+	    									</li>
+	    								</ul>
+	    							</div>
+	    						</div>
+	    						<a href="#contact-section" class="btn btn-solid">
+	    							<span>Start Project</span>
+	    							
+	    						</a>
+	    						<div class="bg-img" style="background-image: url(./images/pat-2.png);"></div>
+	    					</div>
+	    				</div>
+	    			</div>
+	    		</div>
+
+	    		<div class="lui-bgtitle">
+	    			<span>Pricing</span>
+	    		</div>
+	    	</div>
+	    </section>
+
+	    <!-------------------BLOG-------------------------->
+	    <section class="lui-gradient-top" id="blog">
+	    	<div class="container">
+	    		<div class="title-box">
+	    			<h2 class="headding-box">
+	    				<span>LATEST BLOG</span>
+	    			</h2>
+	    			<p class="paragraph-box">
+	    				<span>MY</span>
+	    				<b>Articles and Advice</b>
+	    			</p>
+	    		</div>
+	    		<div class="blog-items">
+	    			<div class="row">
+	    				<div class="col-xs-12 col-sm-4 col-lg-4 col-md-4">
+	    					<div class="archive-item">
+	    						<div class="desc">
+	    							<div class="category lui-subtitle">
+	    								<span>October 31, 2022</span>
+	    							</div>
+	    							<h5 class="lui-title">
+	    								<a href="">The Main Thing For The Designer</a>
+	    							</h5>
+	    							<div class="lui-text width">
+	    								<p>Vivamus interdum suscipit lacus. Nunc ultrices accumsan mattis. Aliquam vel sem vel velit efficitur malesuada. Donec arcu lacus, ornare eget…
+	    								</p>
+	    								<div class="readmore">
+	    									<a href="blog-single.html" class="lnk">
+	    										Read more
+	    									</a>
+	    								</div>
+	    							</div>
+	    						</div>
+	    						<div class="image">
+	    							<a href="blog-single.html">
+	    								<img src="./images/single7.jpg" alt="The Main Thing For The Designer">
+	    							</a>
+	    						</div>
+	    					</div>
+	    				</div>
+	    				<div class="col-xs-12 col-sm-4 col-lg-4 col-md-4">
+	    					<div class="archive-item">
+	    						<div class="desc">
+	    							<div class="category lui-subtitle">
+	    								<span>October 31, 2022</span>
+	    							</div>
+	    							<h5 class="lui-title">
+	    								<a href="">Follow Your Own Design Process</a>
+	    							</h5>
+	    							<div class="lui-text width">
+	    								<p>Vivamus interdum suscipit lacus. Nunc ultrices accumsan mattis. Aliquam vel sem vel velit efficitur malesuada. Donec arcu lacus, ornare eget…
+	    								</p>
+	    								<div class="readmore">
+	    									<a href="blog-single.html" class="lnk">
+	    										Read more
+	    									</a>
+	    								</div>
+	    							</div>
+	    						</div>
+	    						<div class="image">
+	    							<a href="blog-single.html">
+	    								<img src="./images/blog-4-scaled-1.jpg" alt="The Main Thing For The Designer">
+	    							</a>
+	    						</div>
+	    					</div>
+	    				</div>
+	    				<div class="col-xs-12 col-sm-4 col-lg-4 col-md-4">
+	    					<div class="archive-item">
+	    						<div class="desc">
+	    							<div class="category lui-subtitle">
+	    								<span>October 31, 2022</span>
+	    							</div>
+	    							<h5 class="lui-title">
+	    								<a href="">Usability Secrets to Create Better Interfaces</a>
+	    							</h5>
+	    							<div class="lui-text width">
+	    								<p>Vivamus interdum suscipit lacus. Nunc ultrices accumsan mattis. Aliquam vel sem vel velit efficitur malesuada. Donec arcu lacus, ornare eget…
+	    								</p>
+	    								<div class="readmore">
+	    									<a href="blog-single.html" class="lnk">
+	    										Read more
+	    									</a>
+	    								</div>
+	    							</div>
+	    						</div>
+	    						<div class="image">
+	    							<a href="blog-single.html">
+	    								<img src="./images/blog-2.jpg" alt="The Main Thing For The Designer">
+	    							</a>
+	    						</div>
+	    					</div>
+	    				</div>
+	    			</div>
+	    		</div>
+	    		<div class="load-btn">
+		        	<a href="works.html">
+		        		<span>View Blog</span>
+		        	</a>
+		        </div>
+		        <div class="lui-bgtitle">
+	    			<span> Blog </span>
+	    		</div>
+	    	</div>
+	    </section>
+
+	    <!-------------------Contact Me------------------->
+	    <section class="lui-gradient-bottom Contact-box po-re" >
+	    	<div class="container">
+	    		<div class="title-box">
+	    			<h2 class="headding-box">
+	    				<span>CONTACT ME</span>
+	    			</h2>
+	    			<p class="paragraph-box">
+	    				<span>LET’S</span>
+	    				<b>Talk About Ideas</b>
+	    			</p>
+	    		</div>
+	    		<div class="Contact-titlebox">
+	    			<div class="row">
+	    				<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+	    					<div class="numbers-items">
+	    						<div class="numbers-item">
+	    							<div class="icon">
+	    								<i class="fa fa-map-o" aria-hidden="true"></i>
+	    							</div>
+	    							<div class="title">
+	    								<span> Address </span>
+	    							</div>
+	    							<div class="lui-text">
+	    								<span> North Tower, Toronto, Canada </span>
+	    							</div>
+	    						</div>
+
+	    						<div class="numbers-item">
+	    							<div class="icon">
+	    								<i class="fa fa-user-o" aria-hidden="true"></i>
+	    							</div>
+	    							<div class="title">
+	    								<span> Freelance </span>
+	    							</div>
+	    							<div class="lui-text">
+	    								<span> Available Right Now </span>
+	    							</div>
+	    						</div>
+	    						<div class="numbers-item">
+	    							<div class="icon">
+	    								<i class="fa fa-envelope-o" aria-hidden="true"></i>
+	    							</div>
+	    							<div class="title">
+	    								<span> Email </span>
+	    							</div>
+	    							<div class="lui-text">
+	    								<span> zoe.miller@mydomain.com </span>
+	    							</div>
+	    						</div>
+	    						<div class="numbers-item">
+	    							<div class="icon">
+	    								<i class="fa fa-address-book-o" aria-hidden="true"></i>
+	    							</div>
+	    							<div class="title">
+	    								<span> Phone </span>
+	    							</div>
+	    							<div class="lui-text">
+	    								<span> +1 900 - 900 - 9000</span>
+	    							</div>
+	    						</div>
+	    					</div>
+	    				</div>
+
+	    				<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+	    					<div class="Contacts-form">
+	    						<div class="bg-img" style="background-image:url(./images/pat-1.png);"></div>
+								<form>
+									<div class="row">
+										<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+											<div class="group">
+												<label>
+													Your Full Name 
+													<b>*</b>
+													<input type="text" name="name" class="valid">
+													<label class="error valid" for="name"></label>
+												</label>
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+											<div class="group">
+												<label>
+													YOUR EMAIL ADDRESS
+													<b>*</b>
+													<input type="text" name="email" class="valid">
+													<label class="error valid" for="email"></label>
+												</label>
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+											<div class="group">
+												<label>
+													YOUR subject 
+													<b>*</b>
+													<input type="text" name="subject" class="valid">
+												</label>
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+											<div class="group">
+												<label>
+													YOUR MESSAGE 
+													<b>*</b>
+													<textarea name="message" class="error" aria-invalid="true"></textarea>
+													<label class="error" for="message">This field is required.</label>
+												</label>
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 align-right">
+											<div class="terms-label">
+												* Accept the terms and conditions.
+											</div>
+											<a href="#" class="form-btn" type="submit">
+												<span>Send Message</span>
+											</a>
+										</div>
+									</div>
+								</form>
+	    					</div>
+	    				</div>
+	    			</div>
+	    		</div>
+	    		<div class="lui-bgtitle">
+	    			<span>  Contact Me  </span>
+	    		</div>
+	    		<div class="po-ab">
+	    			<div class="v-line-block-2">
+	    			<span></span>
+	    		    </div>
+	    		</div>
+	    	</div>
+	    </section>
+
+	    <!------------------footer------------------------>
+	    <div class="footer" id="contact">
+	    	<div class="container">
+	    		<div class="row">
+	    			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+	    				<div class="social-links">
+	    					<a href="http://twitter.com" target="_blank" title="twitter">
+								<i class="fa fa-twitter" aria-hidden="true"></i>
+							</a>
+							<a href="http://dribbble.com" target="_blank" title="dribbble">
+								<i class="fa fa-dribbble" aria-hidden="true"></i>
+							</a>
+							<a href="http://behance.com" target="_blank" title="behance">
+								<i class="fa fa-behance" aria-hidden="true"></i>
+							</a>
+	    				</div>
+	    			</div>
+	    			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+	    				<div class="copyright-text">
+	    					© 2022 
+	    					<strong>Luique</strong>
+	    					. All rights reserved
+	    				</div>
+	    			</div>
+	    			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+	    				<div class="copyright-text center-2">
+	                        Developed by 
+	                        <strong>bslthemes</strong>
+	    				</div>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>
+
+	    <!------------------cursor--------------------------->
+	    <div class="cursor rounded"></div>
+	</div>
+    <!--------------------------------------->
+    <script src="./js/jquery.min.js"></script>
+    <!-- <script src="./js/bootstrap.min.js"></script> -->
+    <!---<script src="./js/popper.min.js"></script>--->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="./js/slick.js"></script>
+    <script src="./js/lightgallery-all.min.js"></script>
+    <script src="./js/slick-animation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     
+    <script>
+	  AOS.init({
+		  	/*delay:150 ,
+		  	duration: 2.7,*/
+		  	delay:100 , 
+		    duration: 1.2,
+	  });
+	</script>
+</body>
+</html>
+
+
+
+
+
